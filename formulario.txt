@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<HEAD>
+</HEAD>
+<BODY>
+<DIV ID="formulario">
+	<FORM CLASS="bordinha"ACTION="#">
+<SPAN>	Nome: </SPAN>
+	<INPUT CLASS="first" TYPE="text" NAME="nome" ID="nome" PLACEHOLDER="Exemplo: Cloviz"><br><br>
+<SPAN>	Senha: </SPAN>
+	<INPUT TYPE="text" NAME="senha" ID="senha" PLACEHOLDER="Exemplo: abc123"><br><br>
+<SPAN> Email: </SPAN>
+	<INPUT TYPE="text" NAME="email" ID="email" PLACEHOLDER="clogostosao@hotmail.com"><br><br>
+<SPAN>	CPF: </SPAN>
+	<INPUT TYPE="number" NAME="cpf" ID="cpf" PLACEHOLDER="Exemplo: 123456789-99"><br><br>
+<SPAN>	CEP: </SPAN>
+	<INPUT TYPE="number" NAME="cep" ID="cep" PLACEHOLDER="Exemplo: 12345-678"><br><br>
+<SPAN>	DDD: </SPAN>
+	<INPUT TYPE="number" NAME="cep" ID="DDD" PLACEHOLDER="Exemplo: 021">
+<SPAN>	Número: </SPAN>
+	<INPUT TYPE="number" NAME="numero" ID="numero" PLACEHOLDER="Exemplo: 98899-4000">
+	<BUTTON TYPE="button">Enviar</button>
+	<BUTTON TYPE="reset" CLASS="reseta">Limpar</button>
+	</FORM>
+</DIV>
+	<SCRIPT src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+</SCRIPT>	
+	<SCRIPT type="text/javascript" src="script.js">
+</SCRIPT>
+
+</BODY>
+
