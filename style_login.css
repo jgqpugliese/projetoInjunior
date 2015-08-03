@@ -1,0 +1,40 @@
+#formulario{
+
+	background-color:  #E9E9E9;
+	border-radius: 10px;
+	margin :15%;
+	margin-bottom: 30%;
+}
+form div {
+
+	padding-left: 23%;
+}
+.IN {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 24px;
+	padding-top: 1%;
+	
+}
+#formulario span {
+	display: block;
+	margin-right: 2%;
+}
+form input {
+	width: 75%;
+	background-color: #BCBCBC;
+	border:none;
+	color:#3299BB;
+}
+#bot{
+	margin-top: 2%;
+	padding-bottom: 2%;
+	margin-left: 23%;
+}
+form button{
+	background-color: #BCBCBC;
+	color:#424242;
+	border:inset;
+	border-color:#424242;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 24px;
+}

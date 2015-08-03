@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Hotel IN Cadastro</title>
+
+<LINK HREF='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' REL='stylesheet' TYPE='text/css'>
+  <LINK HREF ="styleHOME.css" REL="stylesheet">
+   <LINK HREF ="style.css" REL="stylesheet">
+    <LINK HREF ="style_login.css" REL="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <BODY>  
+  <DIV class="container">
+<NAV>
+
+  <DIV ID="div_logo">
+<A HREF="HOME.html">
+<IMG SRC="img/logo.png" ALT="LOGO HOTEL IN" ID="logo">
+</A>
+
+<DIV ID="div_opcoes" CLASS="op">
+
+<DIV ID="home">
+<A HREF="HOME.html">
+<SPAN >HOME</SPAN>
+</A>
+</DIV>
+
+
+<DIV ID="sobre" CLASS="op">
+<A HREF="sobre.html">
+<SPAN >SOBRE</SPAN>
+</A>
+</DIV>
+
+<DIV ID="login" CLASS="op">
+<A HREF="login.html">
+<SPAN >LOGIN</SPAN>
+</A>
+</DIV>
+
+<DIV ID="drop" CLASS="op">
+<LI  CLASS="dropdown"> 
+              <A HREF="#" CLASS="dropdown-toggle" data-toggle="dropdown" ROLE="button" ARIA-HASPOPUP="true" ARIA-EXPANDED="false"><SPAN>INFORMAÇÕES</SPAN><SPAN CLASS="caret"></SPAN></A> 
+              <UL CLASS="dropdown-menu"> 
+                <LI CLASS="dropdown-header">Apartamento</LI> 
+                <LI><A HREF="#">Classic</A></LI> 
+                <LI><A HREF="#">Superior</A></LI> 
+                <LI><A HREF="#">Luxo</A></LI> 
+                <LI><A HREF="#">HipoAlergênico</A></LI> 
+                <LI CLASS="dropdown-header">Suíte</LI> 
+                <LI><A HREF="#">Classic </A></LI> 
+                <LI><A HREF="#">Master </A></LI> 
+              </UL> 
+            </LI> 
+</DIV>
+
+</DIV>
+
+</NAV>
+
+
+<DIV ID="formulario">
+	<FORM CLASS="bordinha" METHOD="POST" ACTION="cadastro.php">
+		<DIV CLASS="IN">
+			<SPAN>	Nome: </SPAN>
+				<INPUT CLASS="first" TYPE="text" NAME="nome" ID="nome" PLACEHOLDER="Exemplo: Cloviz">
+		</DIV>
+		<DIV CLASS="IN">
+			<SPAN>Senha:</SPAN>
+				<INPUT TYPE="password" NAME="senha" ID="senha" PLACEHOLDER="Exemplo: abc123">
+		</DIV>
+		<DIV CLASS="IN">
+			<SPAN> Email:</SPAN>
+				<INPUT TYPE="text" NAME="email" ID="email" PLACEHOLDER="clogostosao@hotmail.com">
+		</DIV>
+		<DIV CLASS="IN">
+			<SPAN>CPF:</SPAN>
+				<INPUT TYPE="number" NAME="cpf" ID="cpf" PLACEHOLDER="Exemplo: 123456789-99">
+		</DIV>
+		<DIV CLASS="IN">
+			<SPAN>	CEP: </SPAN>
+				<INPUT TYPE="number" NAME="cep" ID="cep" PLACEHOLDER="Exemplo: 12345-678">
+		</DIV>
+		<DIV CLASS="IN">
+			<SPAN>	DDD: </SPAN>
+				<INPUT TYPE="text" NAME="ddd" ID="DDD" PLACEHOLDER="Exemplo: 021" maxlength="3" >
+		</DIV>
+		<DIV CLASS="IN">
+			<SPAN>	Número: </SPAN>
+				<INPUT TYPE="number" NAME="numero" ID="numero" PLACEHOLDER="Exemplo: 98899-4000">
+		</DIV>
+		<DIV ID="bot">
+				<BUTTON TYPE="SUBMIT">Enviar</button>
+		</DIV>
+	</FORM>
+</DIV>
+
+
+
+<FOOTER>
+    <SPAN>COPYRIGHT</SPAN>
+    <DIV ID="redes_sociais">
+        <A HREF="#linkface">
+            <IMG SRC="img/Face.png" class="face">
+        </A>
+        <A HREF="#linkInsta">
+            <IMG SRC="img/Inst.png" class="face">
+        </A>
+        <A HREF="#linkTwitter">
+            <IMG SRC="img/Twitter.png" class="face">
+        </A>
+</FOOTER>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</div>
+</html>
