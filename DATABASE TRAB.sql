@@ -24,8 +24,9 @@ INSERT INTO mes VALUE(NULL,"JANEIRO");
 CREATE TABLE ponto(
 	id_ponto INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
     id_usuario INT NOT NULL,
-    hora_entrada INT NOT NULL,
-    hora_saida INT NOT NULL,
+    hora_entrada time NOT NULL,
+    hora_saida time NOT NULL,
+    dia int not null,
     id_mes INT NOT NULL,
     ano INT NOT NULL,
     hora_trabalhada INT NOT NULL,
